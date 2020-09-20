@@ -17,8 +17,14 @@ For example, if dice is tossed 3 times, and the results are 4, 1, 7, then maximu
 ### Solution
 There is a very [brief tutorial on codeforces](https://codeforces.com/blog/entry/13190), but one might not be able to undestand what is being said, hence this tutorial.
 
-Recall that the expected value of a random variable $X$ is given by
+Recall that the [expected value of a random variable](https://en.wikipedia.org/wiki/Expected_value) $X$ is given by
+
 $E[X] = \sum c_i*Pr(X = c_i)$
+
+Here,
+
+$c_i$ is the possible outcome values for the random variable X
+and $Pr(X = c_i)$ is the probability of the outcome $c_i$ 
 
 For our case we assume a random variable X that denotes the maximum value of dots rolled in any of the ```n``` rolls of the dice.
 
@@ -32,11 +38,14 @@ To calculate the probability of getting maximum value of dots = 1 in n rolls, we
 
 $Pr(X = 1) = \frac{ Number of possible outcomes with maximum dots 1}{Total possible outcomes}$
 
-Number of possible outcomes with maximum dots 1 is only 1 case where in all the n rolls we get 1 as the outcome
+Number of possible outcomes with maximum dots 1 is only 1 case where, in all the n rolls we get 1 as the outcome
 
 roll 1 outcome = 1
+
 roll 2 outcome = 1 ...
+
 ..
+
 roll n outcome = 1
 
 Total possible outcomes for n roll of the dice = $m^n$
