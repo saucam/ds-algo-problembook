@@ -17,8 +17,14 @@ For example, if dice is tossed 3 times, and the results are 4, 1, 7, then maximu
 ### Solution
 There is a very [brief tutorial on codeforces](https://codeforces.com/blog/entry/13190), but one might not be able to undestand what is being said, hence this tutorial.
 
-Recall that the expected value of a random variable <img src="/contents/codeforces/453A/tex/cbfb1b2a33b28eab8a3e59464768e810.svg?invert_in_darkmode&sanitize=true" align=middle width=14.908688849999992pt height=22.465723500000017pt/> is given by
+Recall that the [expected value of a random variable](https://en.wikipedia.org/wiki/Expected_value) <img src="/contents/codeforces/453A/tex/cbfb1b2a33b28eab8a3e59464768e810.svg?invert_in_darkmode&sanitize=true" align=middle width=14.908688849999992pt height=22.465723500000017pt/> is given by
+
 <img src="/contents/codeforces/453A/tex/f850926f1eb658f5afa30f085a8dc6ae.svg?invert_in_darkmode&sanitize=true" align=middle width=190.15185914999998pt height=24.657735299999988pt/>
+
+Here,
+
+<img src="/contents/codeforces/453A/tex/3bc6fc8b86b6c61889f4e572c7546b8e.svg?invert_in_darkmode&sanitize=true" align=middle width=11.76470294999999pt height=14.15524440000002pt/> is the possible outcome values for the random variable X
+and <img src="/contents/codeforces/453A/tex/15a7517df86006453f43e6f70f06556e.svg?invert_in_darkmode&sanitize=true" align=middle width=82.90805819999999pt height=24.65753399999998pt/> is the probability of the outcome <img src="/contents/codeforces/453A/tex/3bc6fc8b86b6c61889f4e572c7546b8e.svg?invert_in_darkmode&sanitize=true" align=middle width=11.76470294999999pt height=14.15524440000002pt/> 
 
 For our case we assume a random variable X that denotes the maximum value of dots rolled in any of the ```n``` rolls of the dice.
 
@@ -32,11 +38,14 @@ To calculate the probability of getting maximum value of dots = 1 in n rolls, we
 
 <img src="/contents/codeforces/453A/tex/6c17642a778f29b8e0b4568b038cfbde.svg?invert_in_darkmode&sanitize=true" align=middle width=388.62864809999996pt height=30.648287999999997pt/>
 
-Number of possible outcomes with maximum dots 1 is only 1 case where in all the n rolls we get 1 as the outcome
+Number of possible outcomes with maximum dots 1 is only 1 case where, in all the n rolls we get 1 as the outcome
 
 roll 1 outcome = 1
+
 roll 2 outcome = 1 ...
+
 ..
+
 roll n outcome = 1
 
 Total possible outcomes for n roll of the dice = <img src="/contents/codeforces/453A/tex/b9a75e2202835f4e29abfe4b445fcbe8.svg?invert_in_darkmode&sanitize=true" align=middle width=22.559123399999994pt height=21.839370299999988pt/>
