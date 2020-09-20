@@ -15,5 +15,5 @@ This repository tries to add detailed tutorials on problems with clear explanati
 ### Codeforces
 
 | Problem | Tutorial from Problembook |
-|---------|------------------|---------------------------|
+|---------|---------------------------|
 | [453A](https://codeforces.com/problemset/problem/453/A)|[Tutorial](contents/codeforces/453A/tutorial.md)|
